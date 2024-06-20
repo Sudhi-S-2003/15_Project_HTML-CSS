@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    color: white;
+}
+.services{
+    text-align: center;
+}
+.service-box{
+    box-shadow: 0 0 4px 0 #ffa709;
+    padding: 15px;
+    position: relative;
+}
+.service-box a{
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(to right,#ff105f,#ffad06);
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    
+}
+.fa{
+    background-image: linear-gradient(to right,#ff105f,#ffad06);
+    background-clip: text;
+    color: transparent;
+}
+.service-container span{
+    background-image: linear-gradient(to right,#ff105f,#ffad06);
+    background-clip: text;
+    color: transparent;
+}
+
+a .fa{ 
+    padding-top: 11px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+
+}
