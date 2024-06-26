@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="product">
+        <div class="product-small-img">
+            <img src="./img/img1.jpg" alt="">
+            <img src="./img/img2.jpg" alt="">
+            <img src="./img/img3.jpg" alt="">
+            <img src="./img/img4.jpg" alt="">
+            <img src="./img/img5.jpg" alt="">
+        </div>
+        <div class="img-container">
+            <img src="./img/img1.jpg" alt="">
+        </div>
+    </div>
+    <script>
+        let smallImages = document.querySelectorAll('.product-small-img img');
+        let mainImage = document.querySelector('.img-container img');
+        smallImages.forEach(img => {
+            img.addEventListener('mouseover', () => {
+                mainImage.src = img.src;
+                });
+                });
+                
+    </script>
+</body>
+</html>

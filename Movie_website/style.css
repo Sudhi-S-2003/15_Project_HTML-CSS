@@ -1,0 +1,65 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/kanguva.jpg);
+    background-position: center;
+}
+.logo{
+    width:50px;
+    margin-top: 18px;
+
+}
+.header{
+    height: 10%;
+}
+.header-btn{
+    text-decoration: none;
+    border-radius: 30px;
+    float: right;
+    margin-top: 15px;
+    padding: 7px 20px;
+    color:#fff;
+    background-color: #ff69b4;
+}
+.movie-details{
+margin: 3% 0;
+
+}
+.movie-details .left-box{
+    color: white;
+}
+.casting img{
+    width:  40px;
+}
+.left-box a{
+    text-decoration: none;
+    box-sizing: 30px;
+    padding: 7px 20px;
+    margin-top: 35px;
+    color: #fff;
+    background-color: #107afd;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.movie_img{
+    width: 100%;
+    max-width: 300px;
+    box-shadow: -4px 4px 5px 0 #000;
+}
+.series{
+    color: white;
+}
+.series img{
+    width: 90%;
+    height: 150px;
+    margin-top: 25px;
+    box-shadow: -4px 4px 5px 0 #000;
+    cursor: pointer;
+    transition: 1s;
+}
+.series img:hover{
+    transform: translateY(-10px);
+}
+.series h5{
+    text-align: center;
+}

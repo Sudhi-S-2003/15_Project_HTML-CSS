@@ -1,0 +1,88 @@
+.wrapper{
+    display: inline-flex;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+}
+.wrapper a{
+    text-decoration: none;
+    height: 70px;
+    width: 200px;
+    font-size: 22px;
+    text-align: center;
+    border:1px solid #ff0000;
+    line-height: 70px;
+    position: relative;
+    margin-left: 20px;
+}
+.wrapper a span{
+background: #ff0000;
+position: absolute;
+transition: 0.8s ease-out;
+z-index: -1;
+}
+
+.wrapper a:hover{
+    color:white;
+}
+
+.to-right{
+    width: 0px;
+    height: 100%;
+    left: 0;
+}
+.wrapper a:hover .to-right{
+    width: 200px;
+    transition: 0.8s; 
+}
+
+.to-left{
+    width: 0px;
+    height: 100%;
+    right: 0;
+
+}
+.wrapper a:hover .to-left{
+    width: 200px;
+    transition: 0.8s; 
+}
+
+.to-top{
+    width: 200px;
+    height: 0px;
+    bottom:  0;
+    left: 0;
+
+}
+.wrapper a:hover .to-top{
+    height:  100%;
+    transition: 0.8s; 
+   
+}
+
+.to-bottom{
+    width: 200px;
+    height: 0px;
+    top: 0;
+    left: 0;
+
+}
+.wrapper a:hover .to-bottom{
+    height:  100%;
+    transition: 0.8s; 
+}
+
+.to-diagonal{
+    width: 0px;
+    height: 0px;
+    bottom:  0;
+    left: 0;
+
+}
+.wrapper a:hover .to-diagonal{
+    height:  100%;
+    width: 200px;
+    transition: 0.8s; 
+}

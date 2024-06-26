@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Stroke Example</title>
+    <style>
+        .my-shape {
+            stroke: #ff0000; /* Red stroke outline */
+            stroke-width: 4; /* 4px stroke width */
+            stroke-dasharray: 5, 7; /* 5 pixels dash followed by 7 pixels gap */
+            stroke-linecap: round; /* Rounded line endings */
+            stroke-linejoin: round; /* Rounded corners */
+            stroke-dashoffset: 0;/*BASED ON DASHOFFSET VISIBLE /INVISBLE SVG*/
+        }
+    </style>
+</head>
+<body>
+    <svg width="200" height="200">
+        <circle cx="100" cy="100" r="50" fill="none" class="my-shape" />
+    </svg>
+</body>
+</html>

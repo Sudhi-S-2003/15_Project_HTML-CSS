@@ -1,0 +1,28 @@
+.product-small-img {
+    float: left;
+}
+.product-small-img img {
+    height: 100px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: 0.7;
+}
+.product-small-img img:hover {
+    opacity: 1;
+}
+.product {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto; 
+}
+.img-container {
+    float: right;
+    padding: 20px;
+}
+.img-container img {
+    height: 500px;
+    max-width: 100%; 
+}

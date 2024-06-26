@@ -1,0 +1,69 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
+    color: #fff;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+svg {
+    width: 400px;
+    height: 400px;
+}
+
+.svg-head,
+.svg-body,
+.svg-shoe {
+    fill-opacity: 0;
+    stroke: #fff;
+    stroke-width: 200px;
+    stroke-dasharray: 9000000;
+    stroke-dashoffset: 0;
+}
+
+.svg-head {
+    animation: head 7s ease-in-out;
+}
+
+@keyframes head {
+    0% {
+        stroke-dashoffset: 9000000;
+    }
+    30% {
+        stroke-dashoffset: 9000000;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.svg-body {
+    animation: body 16s ease-in-out;
+}
+
+@keyframes body {
+    0% {
+        stroke-dashoffset: 9000000;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.svg-shoe {
+    animation: shoe 7s ease-in-out;
+}
+
+@keyframes shoe {
+    0% {
+        stroke-dashoffset: 9000000;
+    }
+    20%{
+        stroke-dashoffset: 9000000;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
